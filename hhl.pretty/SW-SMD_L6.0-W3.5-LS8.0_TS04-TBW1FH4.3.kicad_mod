@@ -174,7 +174,7 @@
 		(uuid "7c9b686c-5068-4f8c-a803-0e6d67b5cc93")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../../HHL-KiCad-Lib/models/SW-SMD_L6.0-W3.5-LS8.0_TS04-TBW1FH4.3.step"
+	(model "../models/SW-SMD_L6.0-W3.5-LS8.0_TS04-TBW1FH4.3.step"
 		(offset
 			(xyz 0 0 0)
 		)

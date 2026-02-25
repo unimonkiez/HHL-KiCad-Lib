@@ -1,7 +1,7 @@
 (footprint "1769"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1769")
 	(tags "Connector")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" "1769"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "610e3a7e-f378-49a5-9f3a-e1343de8aafe")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -251,28 +241,29 @@
 	(pad "1" smd rect
 		(at -1 0)
 		(size 1 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2939fbd8-d13f-4d06-bd68-bded79d7f56e")
 	)
 	(pad "2" smd rect
 		(at 1 0)
 		(size 1 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "62d900fc-ed85-44e4-a8f2-1c23ac42ea09")
 	)
 	(pad "MP1" smd rect
 		(at -3.35 5.55)
 		(size 1.5 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cbc012b7-5895-4ec9-b760-dd0695f51db7")
 	)
 	(pad "MP2" smd rect
 		(at 3.35 5.55)
 		(size 1.5 3.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1e614f39-761b-415f-88c6-101189105b08")
 	)
-	(model "C:/Users/Mitch/GitRepos/HHL-KiCad-Lib/models/1769.stp"
+	(embedded_fonts no)
+	(model "../models/1769.stp"
 		(offset
 			(xyz 0 -7.070000065 0)
 		)
